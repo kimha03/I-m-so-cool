@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARINGS
+
+#include<stdio.h>
+
+int main(void)
+{
+	int x;
+	int sum;
+
+	printf("반지름을 입력하시오:%d \n", x);
+	scanf("%d",&x);
+
+	sum = x * x * 3.14;
+
+	printf("원의 면적:%d \n", sum);
+	
+
+	return 0;
+}
