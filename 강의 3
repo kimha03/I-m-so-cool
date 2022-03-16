@@ -1,0 +1,27 @@
+#define _CRT_SECURE_NO_WARINGS
+
+#include<stdio.h>
+
+int main(void)
+{
+	int x;
+	int y;
+	int sum;
+	int ab;
+	int bc;
+	int cd;
+
+	x = 100;
+	y = 200;
+
+	sum = x + y;
+	ab = x - y;
+	bc = x * y;
+	cd = x / y;
+	printf("두수의 합:%d \n", sum);
+	printf("두수의 차:%d \n", sum);
+	printf("두수의 곱:%d \n", sum);
+	printf("두수의 몫:%d \n", sum);
+
+	return 0;
+}
